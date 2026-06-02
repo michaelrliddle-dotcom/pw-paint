@@ -938,6 +938,7 @@
       border-radius: var(--r-xl);
       overflow: hidden;
       aspect-ratio: 4 / 5;
+      min-height: 320px;
     }
     .about__img-wrap img {
       width: 100%;
@@ -1300,7 +1301,7 @@
 ============================================================ -->
 <header class="header" id="hdr">
   <div class="header__inner">
-    <a href="#home" class="logo" aria-label="PW Paint home"><img src="./Logo_polish_and_clean_202605281547.jpeg" alt="PW Paint Inc." style="height:52px;width:auto;display:block;mix-blend-mode:screen;"></a>
+    <a href="#home" class="logo" aria-label="PW Paint home"><img src="./Logo_polish_and_clean_202605281547.jpeg" alt="PW Paint Inc." style="height:52px;width:auto;display:block;mix-blend-mode:screen;background:transparent;filter:brightness(1) contrast(1.1);" onerror="console.error('Header logo failed to load:', this.src)"></a>
     <nav class="nav" aria-label="Main navigation">
       <ul class="nav__links">
         <li><a href="#services">Services</a></li>
@@ -1480,7 +1481,7 @@
       </div>
 
       <div class="about__img-wrap reveal d2">
-        <img src="./PW_PaintImages007.jpg" alt="PW Paint parking lot striping" style="width:100%;height:100%;object-fit:cover;object-position:center;border-radius:inherit;">
+        <img src="./PW_PaintImages007.jpg" alt="PW Paint parking lot striping" style="width:100%;height:100%;object-fit:cover;object-position:center;border-radius:inherit;display:block;" onerror="console.error('Walk-through image failed to load:', this.src)">
         <div class="about__est-badge">
           <div class="about__est-year">2013</div>
           <div class="about__est-label">Established</div>
@@ -2010,7 +2011,7 @@
     <div class="footer__grid">
 
       <div>
-        <img src="./Logo_polish_and_clean_202605281547.jpeg" alt="PW Paint Inc." style="height:44px;width:auto;display:block;mix-blend-mode:screen;margin-bottom:16px;">
+        <img src="./Logo_polish_and_clean_202605281547.jpeg" alt="PW Paint Inc." style="height:44px;width:auto;display:block;mix-blend-mode:screen;margin-bottom:16px;background:transparent;filter:brightness(1) contrast(1.1);" onerror="console.error('Footer logo failed to load:', this.src)">
         <p class="footer__desc">Southern California's commercial painting contractor since 2013. Precision finishes, transparent pricing, and a written 5-year warranty on every project.</p>
       </div>
 
